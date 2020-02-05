@@ -1,8 +1,72 @@
 body {
   font-family: 'Poppins', sans-serif; }
 
-.navbar-brand, .gigeo-logo {
-  font-weight: 900;
-  font-size: 100px; }
+.gigeo-logo {
+  font-weight: 600;
+  font-size: 40px; }
+
+.art-logo {
+  font-size: 15px; }
+
+.nombre-yuki {
+  font-weight: 800;
+  font-size: 25px; }
+
+.seguidores {
+  font-weight: 400;
+  color: gray;
+  font-size: 20px; }
+
+.titulo-video {
+  font-weight: 600;
+  text-align: left;
+  font-size: 20px; }
+
+.videos-populares {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 30px; }
+
+.yuki-foto {
+  width: 80px;
+  height: auto;
+  border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border: 0px solid #000000; }
+
+.seccion-seguidores {
+  display: inline-block;
+  text-align: center;
+  align-items: center; }
+
+.yuki-mukami {
+  margin-top: 20px; }
+
+header {
+  height: 200px;
+  width: 100%;
+  background-image: url(/assets/img/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.item {
+  width: 100px;
+  height: auto; }
+
+.img-vela, .img-away, .img-city, .img-tale {
+  width: 250px; }
+
+#primera-fila {
+  display: flex;
+  justify-content: space-around; }
+
+.mensaje {
+  margin-right: 10px;
+  opacity: 70%; }
+
+.seguir {
+  opacity: 70%; }
 
 /*# sourceMappingURL=style.css.map */
