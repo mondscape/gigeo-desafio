@@ -1,17 +1,21 @@
 .yuki-foto{
-    width: 80px;
-    height: auto;
+    height: 90px;
     border-radius: 200px;
-    -moz-border-radius: 200px;
-    -webkit-border-radius: 200px;
-    border: 0px solid #000000;
-}
-.seccion-seguidores{
-    display: inline-block;
-    text-align: center;
-    align-items: center;
+ 
 }
 
 .yuki-mukami{
     margin-top: 20px;
 }
+
+.foto-seguidores{
+    display: flex;
+    justify-content: flex-start;
+}
+@media (min-width: 576px) { 
+    
+    #primera-fila{
+        padding: 0 50px;
+    }
+
+ }

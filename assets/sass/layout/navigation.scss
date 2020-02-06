@@ -1,7 +1,22 @@
-.navbar-brand{
-    position: absolute;
+header{
+    height: 10vw;
+    width: 100%;
+    background-image: url(/assets/img/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.art-logo{
-    position:relative;
-    bottom: 15px;
+.gigeo-logo { 
+    position: relative;  
+    font-weight: 500;
+    font-size: 40px; 
+    
+}
+
+span,.art-logo{
+    position: absolute;
+    font-size: 15px;
+    bottom: 40px;
+    left: 120px;
+    
 }
