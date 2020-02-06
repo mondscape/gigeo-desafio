@@ -62,6 +62,9 @@ header {
   display: flex;
   justify-content: space-around; }
 
+.texto-video {
+  box-sizing: border-box; }
+
 .mensaje {
   margin-right: 10px;
   opacity: 70%; }

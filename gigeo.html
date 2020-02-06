@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,900&display=swap" rel="stylesheet">
     <!-- fontawesome -->
@@ -15,27 +16,27 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white container d-flex">
+  <nav class="navbar navbar-expand-lg navbar-light container d-flex">
         <div class="navbar-brand"><a class="gigeo-logo">GIGEO</a><a class="art-logo">ART</a></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fas fa-search fa-1x"></i></a>
+            <li class="nav-item ">
+              <a class="nav-link" href="#"><i class="fas fa-search fa-1x iconos"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-video fa-1x"></i></a>
+              <a class="nav-link" href="#"><i class="fas fa-video fa-1x iconos"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-plus fa-1x"></i></a>
+              <a class="nav-link" href="#"><i class="fas fa-plus fa-1x iconos"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="far fa-bell fa-1x"></i></a>
+                <a class="nav-link" href="#"><i class="far fa-bell fa-1x iconos"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-bars fa-1x"></i></a>
+              <a class="nav-link disable" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-bars fa-1x"></i></a>
             </li>
           </ul>
         </div>
@@ -66,68 +67,65 @@
 
   <hr>
 
-  <section class="container">
-    <h1 class="videos-populares">Videos Populares</h1>
+  <section>
+    <h1 class="videos-populares container">Videos Populares</h1>
 
-    <div class="" id="primera-fila">
+    
       
-
-      <div>
-        <img class="img-vela" src="assets/img/image-1.png" alt="despues-de-la-vela">
-        <div>
-          <h5 class="titulo-video">Después de la vela - Yuki Mukami</h5>
-          <h6 class="subtitulo-video">16k vistas - 1 semana atrás</h6>
+  <div class="container" id="primera-fila">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <img class="img-vela" src="assets/img/image-1.png" alt="despues-de-la-vela">
+            <h5 class="titulo-video">Después de la vela - Yuki Mukami</h5>
+            <h6 class="subtitulo-video">16k vistas - 1 semana atrás</h6>
+          </div>
+          <div class="col-12 col-md-3">
+            <img class="img-away" src="assets/img/image-2.png" alt="far-away">
+            <h5 class="titulo-video">Far Away - Yuki Mukami</h5>
+            <h6>100k vistas - 1 mes atrás</h6>
+          </div>
+          <div class="col-12 col-md-3">
+            <img class="img-city" src="assets/img/image-3.png" alt="city">
+            <h5 class="titulo-video">City - Yuki Mukami</h5>
+           <h6>20k vistas - 1 mes atrás</h6>
+          </div>
+          <div class="col-12 col-md-3">
+            <img class="img-tale" src="assets/img/image-4.png" alt="city">
+            <h5 class="titulo-video">A Yuki tale - Yuki Mukami</h5>
+            <h6>1m vistas - 1 año atrás</h6>
+          </div>
         </div>
-      </div>
+  </div>
 
-      <div>
-        <img class="img-away" src="assets/img/image-2.png" alt="far-away">
-        <h5 class="titulo-video">Far Away - Yuki Mukami</h5>
-        <h6>100k vistas - 1 mes atrás</h6>
-      </div>
+  <div class="container" id="primera-fila">
+    <div class="row">
 
-      <div>
-        <img class="img-city" src="assets/img/image-3.png" alt="city">
-        <h5 class="titulo-video">City - Yuki Mukami</h5>
-        <h6>20k vistas - 1 mes atrás</h6>
-      </div>
-
-      <div>
-        <img class="img-tale" src="assets/img/image-4.png" alt="city">
-        <h5 class="titulo-video">A Yuki tale - Yuki Mukami</h5>
-        <h6>1m vistas - 1 año atrás</h6>
-      </div>
-
-    </div>
-
-    <div class="container" id="primera-fila">
-
-      <div>
+      <div class="col-12 col-md-3">
 
         <img class="img-vela" src="assets/img/image-5.png" alt="despues-de-la-vela">
         <h5 class="titulo-video">Después de la vela - Yuki Mukami</h5>
         <h6>16k vistas - 1 semana atrás</h6>
       </div>
 
-      <div>
+      <div class="col-12 col-md-3">
         <img class="img-away" src="assets/img/image-6.png" alt="far-away">
         <h5 class="titulo-video">Far Away - Yuki Mukami</h5>
         <h6>100k vistas - 1 mes atrás</h6>
       </div>
 
-      <div>
+      <div class="col-12 col-md-3">
         <img class="img-city" src="assets/img/image-7.png" alt="city">
         <h5 class="titulo-video">City - Yuki Mukami</h5>
         <h6>20k vistas - 1 mes atrás</h6>
       </div>
 
-      <div>
+      <div class="col-12 col-md-3">
         <img class="img-tale" src="assets/img/image-8.png" alt="city">
         <h5 class="titulo-video">A Yuki tale - Yuki Mukami</h5>
         <h6>1m vistas - 1 año atrás</h6>
       </div>
-
     </div>
+  </div>
 
   </section>
 
